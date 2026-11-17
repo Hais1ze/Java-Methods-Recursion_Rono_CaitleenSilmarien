@@ -31,4 +31,4 @@ public class FixingAFlawedRecursion {
 
 // 2. Stretch: what happens for factorial(-2) with your corrected code, and why?
 // It will keep calling itself with smaller negative numbers because it never reaches the base 
-// case n == 0. It causes a StackOverflowError.
+// case n == 0. It causes a error.
